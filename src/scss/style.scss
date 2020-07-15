@@ -1,0 +1,11 @@
+.row {
+  line-height: 40px;
+  font-size: 16px;
+  color: black;
+  &>span {
+    padding: 0 10px;
+  }
+  &>span:last-child {
+    cursor: pointer;
+  }
+}
